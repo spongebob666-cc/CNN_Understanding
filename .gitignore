@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# 忽略数据集（一定要加这行！）
+cifar-10-batches-py/
+
+# 忽略模型权重（太大了传不上去）
+checkpoint/
+*.pth
+*.ckpt
+
+# 忽略日志
+logs/
+
+# 忽略结果图片（看你需要，不需要备份结果就忽略）
+results/
+temp_images/
+test_images_highres/
